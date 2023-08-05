@@ -2,12 +2,15 @@
     padding-left: 120px;
 }
 .techstack h2{
+    font-family: cursive;
+    margin-top: 40px;
     color: #138781;
 }
 .techstack hr{
     color: #138781;
     width: 400px;
     margin: 10px auto;
+    margin-bottom: 20px;
 }
 .techstack .card{
     cursor: pointer;
