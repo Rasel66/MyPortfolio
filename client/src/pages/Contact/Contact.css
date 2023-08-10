@@ -1,0 +1,62 @@
+.contact{
+    padding-left: 123px;
+}
+.contact{
+    padding-left: 120px;
+}
+.contact h2{
+    font-family: cursive;
+    margin-top: 40px;
+    color: #138781;
+}
+.contact hr{
+    color: #138781;
+    width: 400px;
+    margin: 10px auto;
+    margin-bottom: 20px;
+}
+.card-0{
+    box-shadow: 0px 4px 8px 0px #757575;
+    border-radius: 0px;
+}
+.row.border-line img {
+    margin-top: 20px;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+.line{
+    height: 1px;
+    width: 45%;
+    background-color: #e0e0e0;
+    margin-top: 10px;
+}
+.or{
+    display: flex;
+    width: 10%;
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 600px){
+    .contact{
+        margin: 0;
+        padding: 0;
+    }
+    .contact h2{
+        font-size: 20px;
+    }
+    .contact hr{
+        width: 200px;
+
+    }
+    .row.border-line img {
+        margin-top: 0px;
+        padding: 1px;
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+    }
+}

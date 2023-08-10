@@ -1,27 +1,31 @@
 import React from 'react'
 import './About.css'
+import Jump from 'react-reveal/Jump';
+
 const About = () => {
-  return (
-    <>
-        <div className="about">
-            <div className="container">
-                <div className="row">
-                    <div className="col-md-6 col-lg-6 col-xl-6 col-xs-12">
-                        <div className="about-image">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK_vjpKVAjkub5O0sFL7ij3mIzG-shVt-6KKLNdxq4&s" alt="About image" />
-                        </div>
-                    </div>
-                    <div className="col-md-6 col-lg-6 col-xl-6 col-xs-12">
-                        <div className="about-text">
-                            <h2 className='text-uppercase'>About me</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi pariatur, provident voluptas ea iure ex voluptates repudiandae, nesciunt, facere repellat labore sint optio consequatur totam! Dolorem perspiciatis minus laborum vitae, saepe laudantium enim vel placeat, sed et velit non iure deserunt tenetur labore eum illo. Deleniti ullam, dicta voluptatem voluptas aut corporis magni debitis quod obcaecati reprehenderit quia blanditiis, beatae sed impedit harum accusantium neque nihil ut ratione, amet architecto eius? Soluta perferendis provident non quidem ipsam tenetur. Animi facere perferendis voluptate ea quo! Provident illo aliquid, officiis excepturi fugiat quo alias adipisci porro, obcaecati harum ab necessitatibus nisi at asperiores libero nostrum mollitia voluptas fugit commodi! Architecto, reprehenderit beatae? </p>
+    return (
+        <>
+            <Jump>
+                <div className="about" id='about'>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-4 col-lg-4 col-xl-4 col-xs-12">
+                                <div className="about-image">
+                                    <img src="https://i.ibb.co/MS4Mpj3/IMG-20210731-200635.jpg" alt="About image" />
+                                </div>
+                            </div>
+                            <div className="col-md-8 col-lg-8 col-xl-8 col-xs-12">
+                                <div className="about-text">
+                                    <h2 className='text-uppercase'>About me</h2>
+                                    <p>"Hello, my name is <b><i>Md. Rasel Hossain</i></b>. I am a Web Developer with a passion for technology and problem-solving. I specialize in designing and developing software solutions to tackle complex challenges. With a strong foundation in computer science and engineering principles, I have acquired expertise in various programming languages, frameworks, and tools. Basically, I would like to develop various web applications with responsive design."</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </>
-  )
+            </Jump>
+        </>
+    )
 }
 
 export default About

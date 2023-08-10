@@ -1,7 +1,7 @@
 .navbar_profile_pic img {
     border-radius: 90px;
-    width: 150px;
-    height: 150px;
+    height: 157px;
+    width: 166px;
     display: flex;
     vertical-align: middle;
     margin: 0 auto;
@@ -25,4 +25,18 @@
 }
 .nav-link:hover{
     color: #f29f67;
+}
+.nav-link .active{
+    color: #f29f67;
+    border-left: 4px solid #f29f67;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 600px){
+    .nav-item{
+        font-size: 13px;
+    }
 }
