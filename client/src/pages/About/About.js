@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import Jump from 'react-reveal/Jump';
+import Fade from 'react-reveal/Fade';
 
 const About = () => {
     return (
@@ -11,7 +12,9 @@ const About = () => {
                         <div className="row">
                             <div className="col-md-4 col-lg-4 col-xl-4 col-xs-12">
                                 <div className="about-image">
-                                    <img src="https://i.ibb.co/MS4Mpj3/IMG-20210731-200635.jpg" alt="About image" />
+                                    <Fade top>
+                                        <img src="https://i.ibb.co/MS4Mpj3/IMG-20210731-200635.jpg" alt="About image" />
+                                    </Fade>
                                 </div>
                             </div>
                             <div className="col-md-8 col-lg-8 col-xl-8 col-xs-12">

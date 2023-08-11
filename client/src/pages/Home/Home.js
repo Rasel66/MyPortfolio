@@ -21,7 +21,7 @@ const Home = () => {
           </Fade>
           <Fade bottom>
             <div className="home-buttons mt-4">
-              <button className='btn btn-hire'>Hire me</button>
+              <a href='' className='btn btn-hire'>Hire me</a>
               <a href={Resume} download="your_name.pdf" className='btn btn-cv'>My CV</a>
             </div>
           </Fade>

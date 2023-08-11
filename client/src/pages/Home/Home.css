@@ -61,15 +61,16 @@
     }
     .home-buttons{
         display: flex;
-        justify-content: center;
     }
     .home-buttons .btn-hire{
-        margin-left: 0px;
+        margin-left: 0;
         width: 120px;
-        display: flex;
     }
     .home-buttons .btn-cv{
         width: 120px;
         margin-left: 12px;
+    }
+    .btn-hire{
+        margin-left: 10px;
     }
 }

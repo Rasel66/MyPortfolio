@@ -1,0 +1,28 @@
+.footer-left.text-white {
+    margin-left: 96px;
+}
+.fl-icon a {
+    margin-right: 10px;
+}
+.footer-middle.text-white p {
+    text-align: justify;
+}
+.icon:hover{
+    color: rgba(41, 41, 218, 0.885);
+}
+.footer-right.text-white a {
+    color: white;
+    text-decoration: none;
+}
+.footer-right.text-white a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+@media (max-width: 600px){
+    .footer-left.text-white {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
