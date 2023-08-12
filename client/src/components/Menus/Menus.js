@@ -3,6 +3,7 @@ import './Menus.css'
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
 import { Link} from 'react-scroll'
+import {GiSkills} from 'react-icons/gi'
 import {FcHome,FcAbout,FcBiotech, FcReading, FcDiploma2, FcVoicePresentation, FcContacts} from 'react-icons/fc'
 const Menus = ({ toggle }) => {
     return (
@@ -33,6 +34,9 @@ const Menus = ({ toggle }) => {
                                 <div className="nav-link"><Link to='project' spy={true} smooth={true} offset={-100} duration={100}>
                                     <FcDiploma2/>Projects</Link>
                                 </div>
+                                <div className="nav-link"><Link to='skills' spy={true} smooth={true} offset={-100} duration={100}>
+                                    <GiSkills/>Skills</Link>
+                                </div>
                                 <div className="nav-link"><Link to='contact' spy={true} smooth={true} offset={-100} duration={100}>
                                     <FcContacts/>Contact</Link>
                                 </div>
@@ -58,6 +62,9 @@ const Menus = ({ toggle }) => {
                             </div>
                             <div className="nav-link"><Link to='project' spy={true} smooth={true} offset={-100} duration={100}>
                                 <FcDiploma2/></Link>
+                            </div>
+                            <div className="nav-link"><Link to='skills' spy={true} smooth={true} offset={-100} duration={100}>
+                                <GiSkills/></Link>
                             </div>
                             <div className="nav-link"><Link to='contact' spy={true} smooth={true} offset={-100} duration={100}>
                                 <FcContacts/></Link>

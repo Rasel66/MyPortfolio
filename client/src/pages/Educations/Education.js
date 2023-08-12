@@ -11,7 +11,7 @@ const Education = () => {
                 <h2 className='col-12 mb-3 mt-5 pt-5 rounded text-center text-uppercase'>Education Details</h2>
                 <hr />
 
-                <VerticalTimeline>
+                <VerticalTimeline className='items'>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: 'rgb(33, 150, 243)', color: 'black' }}

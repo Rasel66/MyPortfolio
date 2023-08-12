@@ -1,11 +1,12 @@
 import React from 'react'
 import './Footer.css'
 import Tada from 'react-reveal/Tada';
+import Resume from '../../assets/Docs/Cv.pdf'
 import {AiFillLinkedin, AiFillFacebook,AiFillGithub} from 'react-icons/ai'
 const Footer = () => {
   return (
     <>
-      <div className="container-fluid bg-dark">
+      <div className="container-fluid bg-dark footer">
         <div className="container p-4">
           <div className="row">
             <Tada>
@@ -14,9 +15,9 @@ const Footer = () => {
                 <h5>Md. Rasel Hossain</h5>
                 <p>&copy; {new Date().getFullYear()} All Rights Reserved</p>
                 <div className="fl-icon">
-                  <a href="" className='text-white'><AiFillLinkedin size={35} className='icon'/></a>
-                  <a href="" className='text-white'><AiFillFacebook size={35} className='icon'/></a>
-                  <a href="" className='text-white'><AiFillGithub size={35} className='icon'/></a>
+                  <a target='_blank' href="https://www.linkedin.com/in/md-rasel-hossain-1867841a4/" className='text-white'><AiFillLinkedin size={35} className='icon'/></a>
+                  <a target='_blank' href="https://www.facebook.com/profile.php?id=100014848712591&mibextid=ZbWKwL" className='text-white'><AiFillFacebook size={35} className='icon'/></a>
+                  <a target='_blank' href="https://github.com/Rasel66" className='text-white'><AiFillGithub size={35} className='icon'/></a>
                 </div>
               </div>
             </div>
@@ -31,7 +32,7 @@ const Footer = () => {
             <div className="col-md-2 col-lg-2 col-sm-12">
               <div className="footer-right text-white">
                 <h5>About</h5>
-                <a href="">Resume</a>
+                <a href={Resume} download="Curriculum_vitae.pdf">Resume</a>
               </div>
             </div>
             </Tada>

@@ -2,7 +2,7 @@ import React from 'react'
 import './Home.css'
 import Typewriter from 'typewriter-effect';
 import Fade from 'react-reveal/Fade';
-import Resume from '../../assets/Docs/resume.txt'
+import Resume from '../../assets/Docs/Cv.pdf'
 
 const Home = () => {
   return (
@@ -21,8 +21,8 @@ const Home = () => {
           </Fade>
           <Fade bottom>
             <div className="home-buttons mt-4">
-              <a href='' className='btn btn-hire'>Hire me</a>
-              <a href={Resume} download="your_name.pdf" className='btn btn-cv'>My CV</a>
+              <a target='_blank' href='https://github.com/Rasel66' className='btn btn-hire'>Github</a>
+              <a href={Resume} download="Curriculum_vitae.pdf" className='btn btn-cv'>My CV</a>
             </div>
           </Fade>
         </div>

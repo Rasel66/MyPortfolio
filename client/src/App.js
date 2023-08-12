@@ -6,6 +6,7 @@ import Contact from './pages/Contact/Contact';
 import Education from './pages/Educations/Education';
 import Footer from './pages/Footer/Footer';
 import Projects from './pages/Projects/Projects';
+import Skill from './pages/Skills/Skill';
 import Techstack from './pages/TechStack/Techstack';
 import ScrollToTop from "react-scroll-to-top";
 
@@ -18,6 +19,7 @@ function App() {
       <Education/>
       <Techstack/>
       <Projects/>
+      <Skill/>
       <Contact/>
       <Footer/>
       <ScrollToTop color='white' smooth style={{background:"#1e1e2c"}} />

@@ -39,15 +39,15 @@
     width: 180px;
 }
 
+/* for mobile */
 
-
-@media (min-width: 600px){
+@media (min-width: 480px){
     .home-container{
         padding: 0;
         margin: 0;
     }
 }
-@media (max-width: 600px){
+@media (max-width: 480px){
     .home-content h1{
         margin: 0;
         padding: 0;
@@ -72,5 +72,27 @@
     }
     .btn-hire{
         margin-left: 10px;
+    }
+}
+
+/*for tab*/
+
+@media (min-width: 481px) and (max-width: 768px){
+    .home-content{
+        margin-left: 100px;
+    }
+}
+
+/* for laptop */
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .home-content{
+        margin-left: 80px;
+    }
+}
+
+@media (min-width: 1281px){
+    .home-content{
+        margin-left: 50px;
     }
 }

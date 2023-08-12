@@ -15,8 +15,8 @@ const Projects = () => {
 
                 <div className="row" id='ads'>
                     <Jump>
-                        <div className="col-md-4">
-                            <div className="card rounded">
+                        <div className="col-md-4 pcard">
+                            <div className="card rounded projectCard">
                                 <div className="card-image">
                                     <span className="card-notify-badge">Full Stack</span>
                                     <img src="https://media.licdn.com/dms/image/D5612AQFnY506s0lVlA/article-cover_image-shrink_600_2000/0/1660523886268?e=2147483647&v=beta&t=6COoLa8lubKoAyjj2jh6Hu1QQSq--e_jnJ5z0nneVz4" alt="Project-1" />
@@ -37,8 +37,8 @@ const Projects = () => {
                     </Jump>
 
                     <Jump>
-                        <div className="col-md-4">
-                            <div className="card rounded">
+                        <div className="col-md-4 pcard">
+                            <div className="card rounded projectCard">
                                 <div className="card-image">
                                     <span className="card-notify-badge">Full Stack</span>
                                     <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/7_Most_Widely_Used_Project_Management_Applications_Compared.jpg" alt="Project-1" />
@@ -58,8 +58,8 @@ const Projects = () => {
                         </div>
                     </Jump>
                     <Jump>
-                        <div className="col-md-4">
-                            <div className="card rounded">
+                        <div className="col-md-4 pcard card3">
+                            <div className="card rounded projectCard">
                                 <div className="card-image">
                                     <span className="card-notify-badge">Full Stack</span>
                                     <img src="https://www.elmhurst.edu/wp-content/uploads/2018/12/5-skills-project-management-degree-elmhurst-college-infographic-thumb.jpg" alt="Project-1" />
@@ -79,8 +79,8 @@ const Projects = () => {
                         </div>
                     </Jump>
                     <Jump>
-                        <div className="col-md-4 mt-4">
-                            <div className="card rounded">
+                        <div className="col-md-4 mt-4 pcard">
+                            <div className="card rounded projectCard">
                                 <div className="card-image">
                                     <span className="card-notify-badge">Full Stack</span>
                                     <img src="https://clickup.com/blog/wp-content/uploads/2022/10/project-management-examples-1.png" alt="Project-1" />
@@ -100,8 +100,8 @@ const Projects = () => {
                         </div>
                     </Jump>
                     <Jump>
-                        <div className="col-md-4  mt-4">
-                            <div className="card rounded">
+                        <div className="col-md-4  mt-4 pcard">
+                            <div className="card rounded projectCard">
                                 <div className="card-image">
                                     <span className="card-notify-badge">Full Stack</span>
                                     <img src="https://mpowr.com/wp-content/uploads/2021/06/Strategy-Planning-vs-project-750x420-1.jpg" alt="Project-1" />
@@ -121,8 +121,8 @@ const Projects = () => {
                         </div>
                     </Jump>
                     <Jump>
-                        <div className="col-md-4 mt-4">
-                            <div className="card rounded">
+                        <div className="col-md-4 mt-4 pcard">
+                            <div className="card rounded projectCard">
                                 <div className="card-image">
                                     <span className="card-notify-badge">Full Stack</span>
                                     <img src="https://clickup.com/blog/wp-content/uploads/2023/04/change-management-guide-blog-feature.png" alt="Project-1" />

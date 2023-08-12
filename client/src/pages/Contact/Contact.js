@@ -16,9 +16,9 @@ const Contact = () => {
 
         const {fullName, email, msg} = inputValue;
 
-        if(fullName == ''){
+        if(fullName === ''){
             toast.error("Full name is required");
-        }else if(email == ''){
+        }else if(email === ''){
             toast.error("Email name is required");
         }else if(!email.includes("@")){
             toast.error("Invalid email address");
@@ -70,7 +70,7 @@ const Contact = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 cl-lg-6">
+                        <div className="col-md-6 cl-lg-6 formm">
                         <ToastContainer/>
                             <Rotate top right>
                                 <div className="row">

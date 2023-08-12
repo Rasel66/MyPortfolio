@@ -18,8 +18,9 @@
     margin-bottom: 20px;
 }
 
+/* for mobile */
 
-@media (max-width: 600px){
+@media (max-width: 480px){
     .education{
         margin: 0;
         padding: 0;
@@ -33,5 +34,31 @@
     }
     .vertical-timeline-element-subtitle{
         font-size: 15px
+    }
+}
+
+/* for tab */
+
+@media (min-width: 481px) and (max-width: 768px){
+    .education{
+        margin: 0px 60px;
+    }
+    .education h3{
+        font-size: 20px;
+    }
+    .education h4{
+        font-size: 16px;
+    }
+}
+
+/* for laptop */
+@media (min-width: 768px) and (max-width: 1024px){
+    .education{
+        margin: 0 70px;
+    }
+}
+@media (min-width: 1281px){
+    .items{
+        margin-left: 100px;
     }
 }

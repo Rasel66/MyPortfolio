@@ -74,9 +74,10 @@ a.ad-btn:hover{
     transition: all 0.3s ease;
 }
 
+/* for mobile */
 
 
-@media (max-width: 600px){
+@media (max-width: 480px){
     .projects{
         margin: 0;
         padding: 0;
@@ -89,5 +90,52 @@ a.ad-btn:hover{
     }
     .card{
         margin-bottom: 15px;
+    }
+}
+
+
+/* for tab */
+
+@media (min-width: 481px) and (max-width: 768px){
+    .projects h2{
+        font-size: 20px;
+        margin-left: 50px;
+    }
+    .projects hr{
+        width: 300px;
+        margin-left: 185px;
+    }
+    .projects h5{
+        font-size: 16px;
+        margin-left: 50px;
+    }
+    .pcard{
+        margin-left: 70px;
+    }
+    .projectCard{
+        width: 250px;
+        margin-right: 40px;
+    }
+    .ad-btn{
+        max-width: 100%;
+    }
+    .card3{
+        margin-top: 24px;
+    }
+}
+
+/* for laptop */
+@media (min-width: 768px) and (max-width: 1024px){
+    .projects{
+        margin: 0 100px 0 80px;
+    }
+    .ad-btn{
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1281px){
+    .projects{
+        margin-left: 150px;
     }
 }

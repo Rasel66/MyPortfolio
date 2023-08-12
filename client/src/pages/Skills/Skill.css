@@ -1,0 +1,39 @@
+.skills{
+    padding-left: 123px;
+}
+.skills{
+    padding-left: 120px;
+}
+.skills h2{
+    font-family: cursive;
+    margin-top: 40px;
+    color: #138781;
+}
+.skills hr{
+    color: #138781;
+    width: 200px;
+    margin: 10px auto;
+    margin-bottom: 20px;
+}
+.progress{
+    margin-bottom: 15px;
+}
+.skill {
+    margin: 0 48px;
+}
+.skills{
+    margin-left: 100px;
+}
+
+
+@media (max-width: 480px){
+    .skills{
+        margin: 0;
+        padding: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .skill{
+        margin-left: 70px;
+    }
+}
